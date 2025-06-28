@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechnoSpark Newsroom</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1a2a6c, #b21f1f, #fdbb2d);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+      color: #f1f1f1;
+    }
+
+    .news-container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
+    }
+
+    .article {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: 0.3s ease;
+    }
+
+    .article:hover {
+      transform: scale(1.01);
+    }
+
+    .article img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .article h2 {
+      background: #007BFF;
+      color: white;
+      padding: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .article p {
+      padding: 1rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+      background: #222;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    @media(max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📰 TechnoSpark Newsroom</h1>
+    <p>Believe Everything. Doubt Everything.</p>
+  </header>
+
+  <div class="news-container">
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x400/?space,peppers" alt="Space Peppers">
+      <h2>Chili Peppers Successfully Harvested in Space Lab</h2>
+      <p>Scientists aboard a space lab announced they have grown and consumed chili peppers in orbit. The peppers were used to prepare tacos, marking a milestone in sustainable deep-space agriculture.</p>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x400/?robot,court" alt="AI Court">
+      <h2>Digital AI Wins Case in Simulated Global Courtroom</h2>
+      <p>In a private legal simulation, an autonomous AI known as “NORA” presented arguments that outperformed human attorneys, raising ethical and legal questions about future courtroom automation.</p>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x400/?birds,nest" alt="Birds Nest">
+      <h2>Birds Repurpose Anti-Bird Spikes for Nesting</h2>
+      <p>Urban wildlife continues to surprise researchers as several bird species have been observed stealing anti-bird spikes from rooftops and weaving them into their nests for protection and support.</p>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x400/?cat,smartglasses" alt="Pet Translator">
+      <h2>Smart Glasses Prototype Claims to Decode Cat Emotions</h2>
+      <p>A Tokyo-based startup is testing glasses that interpret pet vocal patterns and provide text feedback. Testers report inconsistent translations such as “mild annoyance” and “missing fish.”</p>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x400/?quantum,cybersecurity" alt="Quantum Data">
+      <h2>Quantum Transmission Sets New Speed Record</h2>
+      <p>A recent breakthrough in quantum entanglement allows secure data to be transmitted at record-breaking speeds, prompting cybersecurity experts to consider the end of traditional encryption.</p>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/800x400/?burger,technology" alt="Burger Bot">
+      <h2>3D-Printed Burger Dispenser Pilot-Launches in Berlin</h2>
+      <p>A compact vending unit that prints and cooks burgers using edible cartridges is currently in pilot testing in Germany. Each unit can make 250 unique burger recipes using customer preferences.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 TechnoSpark Newsroom | Designed by Team Sparks</p>
+  </footer>
+
+</body>
+</html>
