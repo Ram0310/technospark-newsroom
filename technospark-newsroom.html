@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechnoSpark Newsroom</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #212121;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .news-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .news-card {
+      background: white;
+      border-radius: 10px;
+      max-width: 350px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .news-card:hover {
+      transform: scale(1.02);
+    }
+    .news-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .news-card-content {
+      padding: 15px;
+    }
+    .news-card-content h2 {
+      font-size: 1.2em;
+      margin: 0 0 10px;
+    }
+    .news-card-content p {
+      font-size: 0.95em;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #212121;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .news-card {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TechnoSpark Newsroom</h1>
+    <p>Real or Fake? Can you tell the difference?</p>
+  </header>
+
+  <div class="news-container">
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?ai,robot" alt="AI robot">
+      <div class="news-card-content">
+        <h2>AI Assistant App Writes Entire Bollywood Script</h2>
+        <p>A new AI tool has reportedly written an entire Bollywood film script that is now under production. The creators claim it's better than most recent releases.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?space,planet" alt="Space">
+      <div class="news-card-content">
+        <h2>NASA Discovers Second Earth-Like Planet With Oxygen</h2>
+        <p>Scientists at NASA confirm the discovery of a planet 80 light years away that shows signs of oxygen, suggesting possible life.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?dog,training" alt="Dog">
+      <div class="news-card-content">
+        <h2>Dog Learns to Use iPad to Order Treats</h2>
+        <p>A golden retriever in Canada has gone viral after learning to use an iPad to place snack orders from a pet food app.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?city,futuristic" alt="City">
+      <div class="news-card-content">
+        <h2>Japan to Launch Floating Smart City by 2030</h2>
+        <p>The Japanese government has announced plans to build a self-sustaining floating city with solar power and AI-based governance.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?movie,cinema" alt="Cinema">
+      <div class="news-card-content">
+        <h2>Underground Film Goes Viral, Director Unknown</h2>
+        <p>An anonymous indie film uploaded to a random server is gaining cult popularity for its strange, realistic predictions of 2026.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?banana,fruit" alt="Banana">
+      <div class="news-card-content">
+        <h2>Scientists Grow Blue Bananas That Taste Like Ice Cream</h2>
+        <p>A tropical research lab has bioengineered a blue banana that tastes like vanilla ice cream. It’s already sold out in test markets.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?hacker,cyber" alt="Hacker">
+      <div class="news-card-content">
+        <h2>Teen Hacks Entire Smart City Just to Change Traffic Lights</h2>
+        <p>A 17-year-old was arrested after he hacked into a city’s smart traffic system to skip traffic on his way to a gaming tournament.</p>
+      </div>
+    </div>
+
+    <div class="news-card">
+      <img src="https://source.unsplash.com/350x200/?music,concert" alt="Music">
+      <div class="news-card-content">
+        <h2>AI DJ Drops Album with 0 Human Input — Hits Billboard Top 10</h2>
+        <p>A music album fully created by artificial intelligence has made it to the Billboard charts, raising debates on the future of art.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 TechnoSpark Newsroom — All stories may or may not be true.</p>
+  </footer>
+
+</body>
+</html>
